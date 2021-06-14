@@ -1,4 +1,4 @@
-let str = "The Alliance is our enemy ."
+let str = "The Alliance is our enemy."
 let arr = str.split(' ');
 
 console.log(arr);
