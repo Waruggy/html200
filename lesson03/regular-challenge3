@@ -1,11 +1,11 @@
 let race = ["orc", "troll", "tauren", "undead", "blood elf"];
-for (let index=0; index < race.length; index++);
-race.forEach (function (race, index){
-  console.log (index + ", " + race);
+for (let i=0; i < race.length; i++);
+race.forEach (function (race, i){
+  console.log (i + "," + race);
 });
 
-"0, orc"
-"1, troll"
-"2, tauren"
-"3, undead"
-"4, blood elf"
+"0,orc"
+"1,troll"
+"2,tauren"
+"3,undead"
+"4,blood elf"
