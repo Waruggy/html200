@@ -4,7 +4,7 @@ function request() {
   input = "";
   while (input != "Q" && input != "q") {
     input = prompt(
-      "Please enter Q for Quit, W for Withdraw, D for Deposit, or B for Balance"
+      "Please enter Q / q for Quit, W/w for Withdraw, D / d for Deposit, or B / b for Balance"
     );
     let instruction;
     let result = input.toUpperCase();
