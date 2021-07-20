@@ -1,5 +1,5 @@
 let input = "";
-var amount = 0.0;
+let amount = 0.0;
 function request() {
   input = "";
   while (input != "Q" && input != "q") {
